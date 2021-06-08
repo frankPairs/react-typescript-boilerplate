@@ -7,8 +7,5 @@ module.exports = {
     '\\.(jpg|jpeg|png|svg)$': '<rootDir>/src/__mocks__/fileMock.ts',
     '\\.(css)$': '<rootDir>/node_modules/jest-css-modules',
   },
-  globals: {
-    ['process.env.API_URL']: 'http://localhost:8000',
-    ['process.env.MAPBOX_TOKEN']: 'test_token',
-  },
+  globals: {},
 };
