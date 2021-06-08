@@ -1,6 +1,6 @@
 # React Typescript Boilerplate
 
-Boilerplate to build projects with React, Typescript and Webpack.
+Simple Boilerplate to build projects with React, Typescript and CSS modules.
 
 ## Commands
 
