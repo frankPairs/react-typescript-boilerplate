@@ -15,9 +15,6 @@ module.exports = (env) => {
         filename: 'bundle.js',
         globalObject: 'this',
       },
-      externals: {
-        moment: 'moment',
-      },
       resolve: {
         extensions: ['.ts', '.tsx', '.js'],
         modules: [path.resolve('./src'), 'node_modules'],
