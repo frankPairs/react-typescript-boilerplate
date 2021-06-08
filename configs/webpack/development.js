@@ -24,7 +24,7 @@ module.exports = {
             loader: 'ts-loader',
             options: {
               transpileOnly: true,
-              configFile: '../configs/typescript/production.json',
+              configFile: '../configs/typescript/development.json',
             },
           },
         ],
@@ -32,8 +32,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new ForkTsCheckerWebpackPlugin(),
-  ],
+  plugins: [new webpack.HotModuleReplacementPlugin(), new ForkTsCheckerWebpackPlugin()],
 };
